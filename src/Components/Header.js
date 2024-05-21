@@ -1,5 +1,5 @@
 const Header = () => {
-    return <div>He there it's header of richa's website</div>
+    return <div>Mera naam richa hai</div>
 }
 
 export default Header
