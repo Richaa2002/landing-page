@@ -1,0 +1,238 @@
+/* Section1-container  */
+.Section1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: 1px solid #ff4948;
+  margin: 20px;
+  background-color: #ff4948;
+  padding: 80px 60px !important;
+  border-radius: 60px;
+  box-shadow: 10px 10px 10px none;
+}
+
+/* Container-1 */
+.container-1 {
+  display: flex;
+  border-bottom: 1px solid rgb(210, 207, 207);
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left-container */
+.left-container {
+  font-size: 1.8rem;
+  color: white;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+.section1-link {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+/* Right-container */
+.right-container {
+  display: flex;
+  color: white;
+  width: 50%;
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;
+  gap: 30px 80px;
+  font-size: 1.5rem;
+  padding: 50px 70px;
+}
+
+/* Brand  */
+.brand {
+  margin-bottom: 8px;
+}
+.askimat {
+}
+
+/* Section1-link  */
+.section1-link a {
+  color: white;
+}
+
+/* Container-2  */
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Left-container-lower  */
+.left-container-lower {
+  font-size: 0.9rem;
+  color: white;
+  text-align: justify;
+  margin-top: 25px;
+}
+
+/* Right-container-lower  */
+.right-container-lower {
+  display: flex;
+  gap: 50px;
+  width: 82%;
+}
+
+/* Card  */
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  justify-items: center;
+  padding: 12px;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  width: 50%;
+}
+.card1,
+.card2 {
+  border-right: 1px solid rgb(210, 207, 207);
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* Review  */
+.review1,
+.review2,
+.review3 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: white;
+}
+
+/* review-star */
+
+.review-star {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+/* Rater name  */
+.rater_name {
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  margin-left: 4px;
+}
+
+/* media........... */
+
+@media (max-width: 1200px) {
+  .Section1-container {
+    padding: 60px 40px !important;
+  }
+
+  .right-container {
+    width: 60%;
+    gap: 20px 60px;
+    padding: 40px 50px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-1,
+  .container-2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-container {
+    width: 100%;
+    justify-content: center;
+    padding: 20px 30px;
+  }
+
+  .right-container-lower {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 80%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .Section1-container {
+    padding: 40px 20px !important;
+  }
+
+  .right-container {
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    padding: 30px;
+  }
+
+  .right-container-lower {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Section1-container {
+    padding: 20px 10px !important;
+  }
+
+  .left-container {
+    font-size: 1.5rem;
+  }
+
+  .section1-link {
+    font-size: 0.9rem;
+  }
+
+  .right-container {
+    padding: 20px;
+  }
+
+  .right-container-lower {
+    gap: 10px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .review1,
+  .review2,
+  .review3 {
+    font-size: 3rem;
+  }
+
+  .rater_name {
+    font-size: 0.9rem;
+  }
+}

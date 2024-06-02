@@ -1,0 +1,162 @@
+.Section6-main-container {
+  padding: 60px;
+}
+
+.Section6-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section6-main-heading {
+  font-size: 11px;
+  font-weight: bold;
+  padding-bottom: 40px;
+  color: #f74342;
+}
+
+.section6-uppar-boxes,
+.section6-lower-boxes {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  gap: 40px;
+}
+
+.section6-uppar-boxes div,
+.section6-lower-boxes div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 167px;
+  height: 70px;
+  /* border: 1px solid #ccc; */
+  margin: 0 5px;
+  text-align: center;
+  box-shadow: 5px 5px 7px #ddd;
+}
+
+/* .slider-container {
+  margin-top: 20px;
+  width: 800%;
+  text-align: center;
+} */
+
+/* .slider-label {
+  margin-bottom: 10px;
+}
+
+.horizontal-slider {
+  width: 100%;
+  height: 10px;
+} */
+
+/* .example-thumb {
+  height: 25px;
+  width: 25px;
+  background-color: #007bff;
+  border-radius: 50%;
+  cursor: grab;
+} */
+
+/* .example-track {
+  background: #ddd;
+  height: 10px;
+} */
+
+/* media..... */
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .Section6-main-container {
+    padding: 40px;
+  }
+
+  .section6-uppar-boxes,
+  .section6-lower-boxes {
+    gap: 30px;
+  }
+
+  .section6-uppar-boxes div,
+  .section6-lower-boxes div {
+    width: 150px;
+    height: 60px;
+  }
+
+  .section6-main-heading {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Section6-main-container {
+    padding: 30px;
+  }
+
+  .section6-uppar-boxes,
+  .section6-lower-boxes {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .section6-uppar-boxes div,
+  .section6-lower-boxes div {
+    width: 120px;
+    height: 50px;
+  }
+
+  .section6-main-heading {
+    font-size: 9px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Section6-main-container {
+    padding: 20px;
+  }
+
+  .section6-uppar-boxes,
+  .section6-lower-boxes {
+    gap: 15px;
+  }
+
+  .section6-uppar-boxes div,
+  .section6-lower-boxes div {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .section6-main-heading {
+    font-size: 8px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Section6-main-container {
+    padding: 10px;
+  }
+
+  .section6-uppar-boxes,
+  .section6-lower-boxes {
+    gap: 10px;
+  }
+
+  .section6-uppar-boxes div,
+  .section6-lower-boxes div {
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .section6-main-heading {
+    font-size: 7px;
+    padding-bottom: 10px;
+  }
+}

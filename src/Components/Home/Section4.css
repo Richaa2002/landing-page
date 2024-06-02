@@ -1,0 +1,269 @@
+.Section4-main-container {
+  /* padding: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: #f5f5f5; */
+}
+
+.Section4-left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  transform: rotate(-10deg);
+}
+
+.left-section-box {
+  background-color: #fff;
+  padding: 20px;
+  width: 170px;
+  height: 130px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 30px 30px 25px #ddd;
+}
+
+.Section4-left-section > .left-section-box {
+  width: 220px;
+  height: 180px;
+}
+
+.left-box-main-heading {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+
+.left-section-box2 {
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+}
+
+/* .left-section-box{
+  margin-right: 100px;
+  box-shadow: 30px 30px 25px #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+} */
+
+.left-box-main-para {
+  font-size: 8px;
+  color: #b0b5bb;
+}
+
+.left-box-sec-para {
+  display: flex;
+  flex-direction: column;
+}
+
+.dollar-icon {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff4225;
+  display: flex;
+  align-items: center;
+}
+
+.dollar-icon svg {
+  /* margin-right: 500px; */
+  padding-left: 90px;
+}
+
+/* .left-box-last-para {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+} */
+
+.section4-last-para {
+  display: flex;
+  gap: 10px;
+  font-size: 10px;
+}
+
+.change-color-text {
+  color: #ff9988;
+}
+
+.section4-right-section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.right-section-heading {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #f94743;
+}
+
+.right-section-main-heading {
+  font-size: 45px;
+  font-weight: bold;
+  /* margin: 5px 0; */
+  color: #1f2025;
+  text-align: justify;
+}
+
+.Section4-customers {
+  color: #f94743;
+}
+
+.Section4-right-middle-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.middle-box {
+  /* flex: 1; */
+  /* background-color: #f0f0f0; */
+  /* padding: 20px; */
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  color: #1f2025;
+}
+
+.middle-box div {
+  font-size: 13px;
+}
+
+.get-started-button {
+  background-color: #ff4948;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 11px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: auto;
+  /* transition: background-color 0.3s; */
+}
+
+.check-icon {
+  background-color: #242329;
+  border-radius: 50%;
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+/* media.... */
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  .Section4-main-container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .Section4-left-section {
+    width: 100%;
+    flex-direction: row;
+    gap: 20px;
+    transform: none;
+  }
+
+  .left-section-box {
+    width: 200px;
+    height: 160px;
+  }
+
+  .section4-right-section {
+    width: 100%;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .right-section-main-heading {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Section4-left-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section4-right-section {
+    width: 80%;
+  }
+
+  .right-section-main-heading {
+    font-size: 30px;
+  }
+
+  .middle-box div {
+    font-size: 12px;
+  }
+
+  .get-started-button {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Section4-left-section {
+    gap: 10px;
+  }
+
+  .left-section-box {
+    width: 180px;
+    height: 140px;
+  }
+
+  .right-section-main-heading {
+    font-size: 25px;
+  }
+
+  .middle-box div {
+    font-size: 11px;
+  }
+
+  .get-started-button {
+    font-size: 9px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Section4-main-container {
+    padding: 20px;
+  }
+
+  .Section4-left-section {
+    gap: 5px;
+  }
+
+  .left-section-box {
+    width: 160px;
+    height: 120px;
+  }
+
+  .right-section-main-heading {
+    font-size: 20px;
+  }
+
+  .middle-box div {
+    font-size: 10px;
+  }
+
+  .get-started-button {
+    font-size: 8px;
+    padding: 8px 10px;
+  }
+}
